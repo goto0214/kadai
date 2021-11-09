@@ -57,3 +57,20 @@ footer {
   width: 100%;
   background-color: #aaaaaa;
 }
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 50 auto;
+  }
+  .main-box {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .main-box:last-child {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+}
